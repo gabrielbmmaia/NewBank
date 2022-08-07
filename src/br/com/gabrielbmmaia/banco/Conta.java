@@ -15,8 +15,11 @@ public class Conta {
     private int agencia;
     private Cliente titular;
     private double saldo;
+    private static int totalDeContas;
+
 
     public Conta(int numero, int agencia) {
+        totalDeContas++;
         if(this.numero > 0) {
             this.numero = numero;
         } else {
