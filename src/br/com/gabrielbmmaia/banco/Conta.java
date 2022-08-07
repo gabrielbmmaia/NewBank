@@ -9,5 +9,11 @@ package br.com.gabrielbmmaia.banco;
  * @author Maia
  */
 public class Conta {
-    
+
+    private int numero;
+    private int agencia;
+    private String titular;
+    private double saldo;
+
+
 }
