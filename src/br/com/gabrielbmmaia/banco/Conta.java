@@ -7,7 +7,7 @@ package br.com.gabrielbmmaia.banco;
 import org.w3c.dom.ls.LSOutput;
 
 /**
- * @author Maia
+ * @author Gabriel Maia
  */
 public class Conta {
 
@@ -15,6 +15,19 @@ public class Conta {
     private int agencia;
     private Cliente titular;
     private double saldo;
+
+    public Conta(int numero, int agencia) {
+        if(this.numero > 0) {
+            this.numero = numero;
+        } else {
+            System.out.println("Apenas valores maiores que 0.");
+        }
+        if(this.agencia > 0) {
+            this.agencia = agencia;
+        } else {
+            System.out.println("Apenas valores maiores que 0.");
+        }
+    }
 
     public void sacar(double valor) {
         if (this.saldo >= valor) {
@@ -53,4 +66,11 @@ public class Conta {
         return  this.saldo;
     }
 
+    public void setTitular(Cliente titular) {
+        this.titular = titular;
+    }
+
+    public void setAgencia(int agencia) {
+        this.agencia = agencia;
+    }
 }
