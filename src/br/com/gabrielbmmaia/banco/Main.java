@@ -4,14 +4,11 @@ public class Main {
 
     public static void main(String[] args) {
 
-        var primeiraConta = new ContaCorrente(133,12345);
-        var segundaConta = new ContaPoupanca(133, 12344);
-        primeiraConta.setTitular(new Cliente("222.222.222-22", "Programador", "Gabriel Maia"));
+        var gerente = new Gerente("222.222.222-22", "Gabriel Maia", 4000);
+        var si = new SistemaInterno();
+        var seguranca = new Segurança("333.333.333-33", "Jorge dos Santos", 2000);
 
-        primeiraConta.depositar(300);
-        System.out.println(primeiraConta.getSaldo());
-        System.out.println(primeiraConta.getTitular().getCpf());
-
+        si.autentica(gerente);
 
 
     }

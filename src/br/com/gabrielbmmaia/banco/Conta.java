@@ -19,7 +19,7 @@ public abstract class Conta {
 
 
     public Conta(int numero, int agencia) {
-        totalDeContas++;
+        Conta.totalDeContas++;
         if(this.numero > 0) {
             this.numero = numero;
         } else {

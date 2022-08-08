@@ -1,6 +1,6 @@
 package br.com.gabrielbmmaia.banco;
 
-// A classe é abstrata para servir para todos os tipos de funcionários da empresa, porém não poder instancializa-la
+// A classe é abstrata para servir para todos os tipos de conta do banco, porém não poder instancializa-la
 public abstract class Funcionario {
 
     private String cpf;
@@ -12,6 +12,7 @@ public abstract class Funcionario {
         this.nome = nome;
         this.salario = salario;
     }
+
 
     public String getCpf() {
         return cpf;
