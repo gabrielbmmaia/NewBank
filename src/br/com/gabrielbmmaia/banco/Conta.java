@@ -9,7 +9,7 @@ import org.w3c.dom.ls.LSOutput;
 /**
  * @author Gabriel Maia
  */
-public class Conta {
+public abstract class Conta {
 
     private int numero;
     private int agencia;

@@ -1,6 +1,7 @@
 package br.com.gabrielbmmaia.banco;
 
-public class Funcionario {
+// A classe é abstrata para servir para todos os tipos de funcionários da empresa, porém não poder instancializa-la
+public abstract class Funcionario {
 
     private String cpf;
     private String nome;
