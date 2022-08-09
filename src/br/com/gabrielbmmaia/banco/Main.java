@@ -6,9 +6,13 @@ public class Main {
 
         var gerente = new Gerente("222.222.222-22", "Gabriel Maia", 4000);
         var si = new SistemaInterno();
-        var seguranca = new Segurança("333.333.333-33", "Jorge dos Santos", 2000);
+        var seguranca = new Seguranca("333.333.333-33", "Jorge dos Santos", 2000);
+        var adm = new Administrador("222.222.222-22", "Gabriel Maia", 4000);
+
+
 
         si.autentica(gerente);
+        si.autentica(adm);
 
 
     }

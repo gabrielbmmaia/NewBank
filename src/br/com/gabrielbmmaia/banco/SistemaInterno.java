@@ -4,11 +4,11 @@ public class SistemaInterno {
 
     private int senha = 555;
 
-    public boolean autentica(Autenticador a) {
-        if(a.autenticador(this.senha)){
+    public boolean autentica(Autenticavel a) {
+        if (a.getSenha() == this.senha) {
             System.out.println("Acesso Permitido");
             return true;
-        } else{
+        } else {
             System.out.println("Acesso Negado");
             return false;
         }
