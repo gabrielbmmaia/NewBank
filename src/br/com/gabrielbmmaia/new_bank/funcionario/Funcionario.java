@@ -1,4 +1,4 @@
-package br.com.gabrielbmmaia.banco;
+package br.com.gabrielbmmaia.new_bank.funcionario;
 
 // A classe é abstrata para servir para todos os tipos de conta do banco, porém não poder instancializa-la
 public abstract class Funcionario {

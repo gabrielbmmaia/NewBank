@@ -2,9 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package br.com.gabrielbmmaia.banco;
-
-import org.w3c.dom.ls.LSOutput;
+package br.com.gabrielbmmaia.new_bank.cliente;
 
 /**
  * @author Gabriel Maia

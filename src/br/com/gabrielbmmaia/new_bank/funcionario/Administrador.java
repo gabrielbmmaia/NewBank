@@ -1,8 +1,8 @@
-package br.com.gabrielbmmaia.banco;
+package br.com.gabrielbmmaia.new_bank.funcionario;
 
 public class Administrador extends Funcionario implements Autenticavel {
 
-    private int senha = 333;
+    private int senha = 555;
 
     public Administrador(String cpf, String nome, double salario) {
         super(cpf, nome, salario);
